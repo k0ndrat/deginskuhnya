@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62E0B9426C2E820009D1C0F /* PlatesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62E0B9326C2E820009D1C0F /* PlatesInfo.swift */; };
 		E6A8D80E26BF038B001BEEDC /* deginskuhnyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8D80D26BF038B001BEEDC /* deginskuhnyaApp.swift */; };
 		E6A8D81026BF038B001BEEDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8D80F26BF038B001BEEDC /* ContentView.swift */; };
 		E6A8D81226BF038C001BEEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A8D81126BF038C001BEEDC /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E62E0B9326C2E820009D1C0F /* PlatesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatesInfo.swift; sourceTree = "<group>"; };
 		E6A8D80A26BF038B001BEEDC /* deginskuhnya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deginskuhnya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A8D80D26BF038B001BEEDC /* deginskuhnyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deginskuhnyaApp.swift; sourceTree = "<group>"; };
 		E6A8D80F26BF038B001BEEDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,11 @@
 		E6A8D82626BF038D001BEEDC /* deginskuhnyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deginskuhnyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A8D82A26BF038D001BEEDC /* deginskuhnyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deginskuhnyaUITests.swift; sourceTree = "<group>"; };
 		E6A8D82C26BF038D001BEEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A8D83B26BF1895001BEEDC /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Medium.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		E6A8D83C26BF1895001BEEDC /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		E6A8D83D26BF1895001BEEDC /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-SemiBold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		E6A8D83E26BF1895001BEEDC /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		E6A8D83F26BF1895001BEEDC /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Light.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +106,9 @@
 				E6A8D80F26BF038B001BEEDC /* ContentView.swift */,
 				E6A8D81126BF038C001BEEDC /* Assets.xcassets */,
 				E6A8D81626BF038D001BEEDC /* Info.plist */,
+				E6A8D83A26BF1885001BEEDC /* CustomFonts */,
 				E6A8D81326BF038D001BEEDC /* Preview Content */,
+				E62E0B9326C2E820009D1C0F /* PlatesInfo.swift */,
 			);
 			path = deginskuhnya;
 			sourceTree = "<group>";
@@ -128,6 +137,18 @@
 				E6A8D82C26BF038D001BEEDC /* Info.plist */,
 			);
 			path = deginskuhnyaUITests;
+			sourceTree = "<group>";
+		};
+		E6A8D83A26BF1885001BEEDC /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6A8D83C26BF1895001BEEDC /* Quicksand-Bold.ttf */,
+				E6A8D83F26BF1895001BEEDC /* Quicksand-Light.ttf */,
+				E6A8D83E26BF1895001BEEDC /* Quicksand-Regular.ttf */,
+				E6A8D83B26BF1895001BEEDC /* Quicksand-Medium.ttf */,
+				E6A8D83D26BF1895001BEEDC /* Quicksand-SemiBold.ttf */,
+			);
+			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6A8D81026BF038B001BEEDC /* ContentView.swift in Sources */,
+				E62E0B9426C2E820009D1C0F /* PlatesInfo.swift in Sources */,
 				E6A8D80E26BF038B001BEEDC /* deginskuhnyaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
