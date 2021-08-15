@@ -19,7 +19,7 @@
                         
                         .ignoresSafeArea()
                     VStack {
-                        Text("SELECT YOUR DISHES")
+                        Text("SELECT YOUHES")
                             
                             .font(.title2)
                             .fontWeight(.heavy)
