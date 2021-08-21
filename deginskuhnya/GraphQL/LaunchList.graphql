@@ -1,0 +1,19 @@
+query GetAllDishes {
+  dishes {
+    id
+    category
+    name
+    description
+    imageURL
+  }
+}
+
+mutation CreateDish($category: Int, $description: String, $imageURL: String, $name: String) {
+  insert_dishes(objects: {category: $category, description: $description, imageURL: $imageURL, name: $name}) {
+    returning {
+      id
+    }
+  }
+}
+
+
