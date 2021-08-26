@@ -1,0 +1,6 @@
+framework module Pods_deginskuhnyaTests {
+  umbrella header "Pods-deginskuhnyaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

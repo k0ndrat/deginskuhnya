@@ -9,26 +9,37 @@ import SwiftUI
 
 struct PlatesInfo: View {
     var body: some View {
-        ZStack {
-            
-            VStack(alignment: .leading) {
-                Text("название блюда")
-                    .modifier(TextModifer(textStyle: .bold, color: .black, size: 40))
-                    .padding(.bottom, 20)
+        ScrollView(.vertical, showsIndicators: true,  content: {
+            ZStack {
+                Image("09")
+ 
+                    .frame(width: viewWidth)
+                    .edgesIgnoringSafeArea(.all)
+                    
                 
-                Image("cat123321")
-                    .resizable()
-                    .scaledToFit()
-                    .padding(.horizontal, 25)
-                
-                    Text("asdfasdfasdf")
-                
-                Spacer()
+                VStack(alignment: .leading) {
+                    Text("/name of the plate/")
+                        
+                        .modifier(TextModifer(textStyle: .bold, color: .black, size: 19))
+                        .padding(.bottom, 20)
+                    
+                    Image("cat123321")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(.horizontal, 25)
+                    
+                    Text("......n,b,nbkjb,k,.")
+		 
+                        .modifier(TextModifer(textStyle: .bold, color: .black, size: 25))
+                    
+                    Spacer()
+                }
+                .padding(.horizontal)
             }
-            .padding(.horizontal)
-        }
-        
+            
+        })
     }
+    
 }
 
 struct PlatesInfo_Previews: PreviewProvider {
